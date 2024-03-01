@@ -1,0 +1,11 @@
+GRAPHQL http://localhost:8081/graphql
+
+query customer {
+
+    customer(customerId: "1") {
+        customerId
+        firstName
+        lastName
+    }
+
+}
